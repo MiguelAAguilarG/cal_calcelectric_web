@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    max-width: 36.5em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    margin: 0 auto;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+}
+
+footer{
+    padding: 10px;
+}
+
+.data, .result, .result-small, .label, .label-center, .data-fake{
+    border: solid 1px;
+    padding: 1px;
+    padding-left: 4px;
+    padding-right: 2px;
+}
+
+.result-small{
+    font-size: small;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.data{
+    background-color: lightcyan;
+}
+
+.result, .result-small{
+    background-color: aliceblue;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    margin: 0 auto;
+}
+
+.box-wrap{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box-decimals{
+    display: grid;
+    justify-content: left;
+    grid-template-columns: minmax(9em, 9em) minmax(5em, 5em);
+    grid-column: 1 / -1;
+    margin: 2px;
+    padding: 2px;
+}
+
+.box-data, .box-result, .box-data-checkbox, .box-data-AWG, .box-result-volume{
+    display: grid;
+    grid-column: 1 / -1;
+    padding: 2px;
+}
+
+.box-data, .box-result{
+    grid-template-columns: minmax(16em, 16em) minmax(2em, 2em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em);
+}
+
+.box-data-checkbox{
+    grid-template-columns: minmax(14em, 14em) minmax(2em, 2em) minmax(2em, 2em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em) minmax(2.5em, 2.5em);
+}
+
+.box-data-AWG{
+    grid-template-columns: minmax(16em, 16em) minmax(2em, 2em) minmax(17.5em, 17.5em);
+}
+
+.box-result-volume{
+    grid-template-columns: minmax(16em, 16em) minmax(2em, 2em) minmax(17.5em, 17.5em);
+}
+
+.label-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-center-footer{
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+.nota{
+    justify-content: center;
+    font-style: italic;
+    font-size: small;
+}
+
+.nota_sinBullets{
+    font-style: italic;
+    font-size: small;
+    list-style-position: inside;
+    list-style-type: none
+}
+
+#autor{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Miblog{
+    text-align: center;
+}
